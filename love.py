@@ -72,8 +72,8 @@ print  """\033[1;91m=======================================
 \033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/lovehacker
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
-CorrectUsername = "lovehacker"
-CorrectPassword = "03094161457"
+CorrectUsername = "1"
+CorrectPassword = "2"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
@@ -84,14 +84,14 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+            os.system('')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+        os.system('')
 def login():
 	os.system('clear')
 	try:
-		toket = open('login.txt','r')
+		toket = open('','r')
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
